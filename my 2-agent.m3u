@@ -1,1 +1,870 @@
-ew
+#EXTM3U url-tvg="http://www.teleguide.info/download/new3/xmltv.xml.gz"
+#EXTINF:-1=== Обновлён: 12.03.2025 ===
+
+#EXTINF:-1 group-title="ЭФИРНЫЕ",Первый канал
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/DVB-T2/CH_1TV.m3u8
+
+#EXTINF:-1 group-title="ЭФИРНЫЕ",Россия 1
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/DVB-T2/CH_RUSSIA1.m3u8
+
+#EXTINF:-1 tvg-id="rossia1" tvg-logo="http://i122.fastpic.org/big/2023/0705/17/1f78a821046a3a5dedc9b714a6e0b717.png" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные", Россия 1
+#EXTVLCOPT:http-user-agent=SmartTV
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1/variant.m3u8
+
+#EXTINF:-1 group-title="ЭФИРНЫЕ",Россия 1 HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/smotrim/T2/CH_RUSSIA1HD.m3u8
+
+#EXTINF:-1 group-title="ЭФИРНЫЕ",НТВ
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/DVB-T2/CH_NTV.m3u8
+
+#EXTINF:-1 group-title="ЭФИРНЫЕ",НТВ HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/T2/CH_NTVHD.m3u8
+
+#EXTINF:-1 group-title="ЭФИРНЫЕ" tvg-logo="http://epg.one/img/2001.png",НТВ HD
+#EXTVLCOPT:http-user-agent=SmartTV
+https://livetv.mylifeisgood.net.ru/channels/ntvhd.m3u8
+
+#EXTINF:-1 group-title="ЭФИРНЫЕ",РЕН ТВ
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/DVB-T2/CH_RENTV.m3u8
+
+#EXTINF:-1 group-title="ЭФИРНЫЕ",РЕН ТВ HD
+#EXTVLCOPT:http-user-agent=SmartTV
+https://livetv.mylifeisgood.net.ru/channels/rentv.m3u8
+
+#EXTINF:-1 group-title="ЭФИРНЫЕ",СТС
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/DVB-T2/CH_STS.m3u8
+
+#EXTINF:-1 group-title="ЭФИРНЫЕ",СТС HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/T2/CH_STSHD.m3u8
+
+#EXTINF:-1 group-title="ЭФИРНЫЕ",ТНТ
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/DVB-T2/CH_TNT.m3u8
+
+#EXTINF:-1 tvg-id="tnt" tvg-logo="https://iptvx.one/picons/tnt.png" group-title="ЭФИРНЫЕ",ТНТ HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://185.50.148.2:7710/TNT_HD/index.m3u8
+
+#EXTINF:-1 tvg-id="sts" tvg-logo="https://iptvx.one/picons/sts.png" group-title="ЭФИРНЫЕ",ТНТ HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://31.210.208.171:8080/sts/index.m3u8?token=+W2MSER
+
+#EXTINF:-1 group-title="ЭФИРНЫЕ" tvg-logo="http://epg.one/img/1649.png" tvg-rec="3",ТНТ4 HD
+#EXTVLCOPT:http-user-agent=SmartTV
+https://livetv.mylifeisgood.net.ru/channels/tnt4.m3u8
+
+#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ",ТНТ4
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/zabava/CH_TNT4.m3u8
+
+#EXTINF:-1 group-title="ЭФИРНЫЕ",Пятый канал
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/DVB-T2/CH_5TV.m3u8
+
+#EXTINF:-1 tvg-id="kultura" catchup="append" tvg-logo="https://getsiptv.ru/img/ch_icons/rossiya_kultura.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные", Россия К
+#EXTVLCOPT:http-user-agent=SmartTV
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/variant.m3u8
+
+#EXTINF:-1 tvg-id="kultura" group-title="ЭФИРНЫЕ",Россия К
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/DVB-T2/CH_RUSSIAK.m3u8
+
+#EXTINF:-1 tvg-id="kultura" group-title="ЭФИРНЫЕ",Россия К HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/smotrim/T2/CH_RUSSIAKHD.m3u8
+
+#EXTINF:-1 group-title="ЭФИРНЫЕ",Россия 24
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/DVB-T2/CH_RUSSIA24.m3u8
+
+#EXTINF:-1 group-title="ЭФИРНЫЕ",ОТР
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/DVB-T2/CH_OTR.m3u8
+
+#EXTINF:-1 group-title="ЭФИРНЫЕ",ТВЦ
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/DVB-T2/CH_TVC.m3u8
+
+#EXTINF:-1 group-title="ЭФИРНЫЕ",СПАС
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/DVB-T2/CH_SPAS.m3u8
+
+#EXTINF:-1 group-title="ЭФИРНЫЕ",Домашний
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/DVB-T2/CH_DOMASHNIY.m3u8
+
+#EXTINF:-1 tvg-id="domashny" tvg-logo="https://iptvx.one/picons/domashny.png" group-title="ЭФИРНЫЕ",Домашний HD
+#EXTVLCOPT:http-user-agent=SmartTV
+https://livetv.mylifeisgood.net.ru/channels/domashnii.m3u8
+
+#EXTINF:-1 group-title="ЭФИРНЫЕ",ТВ3
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/DVB-T2/CH_TV3.m3u8
+
+#EXTINF:-1 group-title="ЭФИРНЫЕ",Пятница!
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/DVB-T2/CH_FRIDAY.m3u8
+
+#EXTINF:-1 tvg-id="piatnica" tvg-logo="https://iptvx.one/picons/piatnica.png" group-title="ЭФИРНЫЕ",Пятница! HD
+#EXTVLCOPT:http-user-agent=SmartTV
+https://livetv.mylifeisgood.net.ru/channels/friday.m3u8
+
+#EXTINF:-1 group-title="ЭФИРНЫЕ",Звезда
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/DVB-T2/CH_ZVEZDA.m3u8
+
+#EXTINF:-1 group-title="ЭФИРНЫЕ",Звезда HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/T2/CH_ZVEZDAHD.m3u8
+
+#EXTINF:-1 tvg-id="zvezda-plus" group-title="Эфирные",Звезда Плюс HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/playlist_hdhigh.m3u8
+
+#EXTINF:-1 group-title="ЭФИРНЫЕ",МИР
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/DVB-T2/CH_MIR.m3u8
+
+#EXTINF:-1 group-title="ЭФИРНЫЕ",МИР HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/T2/CH_MIRHD.m3u8
+
+#EXTINF:-1 group-title="ЭФИРНЫЕ",МУЗ ТВ
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/DVB-T2/CH_MUZTV.m3u8
+
+#EXTINF:-1 group-title="ЭФИРНЫЕ",Че!
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/zabava/CH_CHE.m3u8
+
+#EXTINF:-1 group-title="ЭФИРНЫЕ",Ю
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/zabava/CH_U.m3u8
+
+#EXTINF:-1 group-title="ЭФИРНЫЕ",PLANETA RTR HD720 (EURO) (auto)
+#EXTVLCOPT:http-user-agent=SmartTV
+http://player.smotrim.ru/iframe/stream/live_id/d7fef212-df66-485d-9952-7eab82d7d51b.m3u8
+
+#EXTINF:-1 tvg-id="rtr-planeta-eu" tvg-logo="https://epg.iptvx.one/picons/rtr-planeta.png" group-title="Эфирные", РТР-Планета Европа
+#EXTVLCOPT:http-user-agent=SmartTV
+http://player.smotrim.ru/iframe/stream/live_id/d7fef212-df66-485d-9952-7eab82d7d51b.m3u8
+
+#EXTINF:-1 tvg-id="pervy-info-by" group-title="Эфирные", Первый информационный Беларусь
+#EXTVLCOPT:http-user-agent=SmartTV
+https://edge52.dc.beltelecom.by/ngtrk/_definst_/smil:informacionnyy.smil/chunklist_w499524774_b5160000_sleng.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS8xNy8yMDI0IDEwOjA0OjA4IEFNJmhhc2hfdmFsdWU9SDJKZTBvbkthK0M0RG14b3JWdkNzZz09JnZhbGlkbWludXRlcz0xMjA%3D
+
+#EXTINF:-1 tvg-id="prnk-tv" group-title="Эфирные", Первый Российский Национальный канал
+#EXTVLCOPT:http-user-agent=SmartTV
+https://serv25.vintera.tv/1pnk/prnk/chunks.m3u8
+
+#EXTINF:-1 tvg-id="ntv" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",НТВ
+#EXTVLCOPT:http-user-agent=SmartTV
+http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/variant.m3u8
+
+#EXTINF:-1 tvg-id="ntv-xit" group-title="Эфирные", НТВ Хит
+#EXTVLCOPT:http-user-agent=SmartTV
+http://cdn.ntv.ru/th_hit/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="ntv-serial" group-title="Эфирные", НТВ Сериал
+#EXTVLCOPT:http-user-agent=SmartTV
+http://cdn.ntv.ru/th_serial/tracks-v1a1/playlist.m3u8
+
+
+#EXTINF:-1 tvg-id="ntv-mir" group-title="Эфирные", НТВ-Мир
+#EXTVLCOPT:http-user-agent=SmartTV
+https://streaming.goodstream.cyou/live/213.m3u8
+
+#EXTINF:-1 group-title="Эфирные",Первый Крымский
+#EXTVLCOPT:http-user-agent=SmartTV
+http://live1.trkcrimea.ru/1tvcrimea.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptvx.one/picons/ratnik.png" tvg-id="ratnik" group-title="Эфирные",Ратник HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://live-ratnik.cdnvideo.ru/ratnik/ratnik.sdp/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://iptvx.one/picons/krasnaya-linia.png" tvg-id="krasnaya-linia" group-title="Эфирные",Красная линия
+#EXTVLCOPT:http-user-agent=SmartTV
+http://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/index.m3u8
+
+#EXTINF:-1 tvg-id="tv-brics" group-title="Эфирные", TV BRICS
+#EXTVLCOPT:http-user-agent=SmartTV
+http://rusbrics.mediacdn.ru/cdn/brics/russian/chunklist.m3u8
+
+#EXTINF:-1 group-title="Фильмы",Viju TV 1000
+#EXTVLCOPT:http-user-agent=SmartTV
+http://91.205.199.3:80/tv1000/index.m3u8
+
+#EXTINF:-1 group-title="Фильмы",Viju TV 1000 Action
+#EXTVLCOPT:http-user-agent=SmartTV
+http://91.205.199.3:80/tv1000action/index.m3u8
+
+#EXTINF:-1 group-title="Фильмы",Viju+ Comedy HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://91.205.199.3:80/vipcomedi/index.m3u8
+
+#EXTINF:-1 group-title="Фильмы",Viju Serial HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://91.205.199.3/vipserialhd/index.m3u8
+
+#EXTINF:-1 tvg-logo="http://stb.fox-tv.fun/images/logo_chanel/STRASHNOEHD200.png" tvg-rec="1" catchup-type="shift" catchup_days="5" group-title="Фильмы",Страшное HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://158.101.194.132:8080/channel/42c15d29/index.m3u8?q=5656d7c7c902657d3491c0330b58ec0e
+
+#EXTINF:-1 group-title="Фильмы",Русский бестселлер
+#EXTVLCOPT:http-user-agent=SmartTV
+http://31.148.48.15:80/Russkiy_Bestseller/index.m3u8?token=test
+
+#EXTINF:-1 group-title="Фильмы" tvg-logo="https://smarttv.816club.net/wp-content/uploads/2021/03/favicon.png",Твоё ТВ HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://84.38.180.145:8080/tvoetv/index.m3u8
+
+#EXTINF:-1 group-title="Фильмы" tvg-logo="https://i.imgur.com/YfQEflM.png",SeriesTV HD
+#EXTVLCOPT:http-user-agent=SmartTV
+https://hls.goodgame.ru/hls/186021.m3u8?|user-agent=rostik_tv
+
+#EXTINF:-1 group-title="Фильмы" tvg-logo="https://i.imgur.com/YfQEflM.png",Fox
+#EXTVLCOPT:http-user-agent=SmartTV
+https://stream01.vnet.am/Fox/mono.m3u8
+
+#EXTINF:-1 group-title="Фильмы" tvg-logo="https://i.imgur.com/YfQEflM.png",СитиЭдем - Мистика HDR
+#EXTVLCOPT:http-user-agent=SmartTV
+https://autopilot.catcast.tv/content/40783/index.m3u8?bw943199057684.m3u8
+
+#EXTINF:-1 group-title="Фильмы" tvg-logo="https://i.imgur.com/YfQEflM.png",СитиЭдем - Экшен HDR
+#EXTVLCOPT:http-user-agent=SmartTV
+https://autopilot.catcast.tv/content/41333/index.m3u8?bw943199057684.m3u8
+
+
+#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ",2x2
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/zabava/CH_2X2.m3u8
+
+#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ",Суббота!
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/zabava/CH_SUBBOTA.m3u8
+
+#EXTINF:-1 tvg-id="super" tvg-logo="https://iptvx.one/picons/subbota.png" group-title="РАЗВЛЕКАТЕЛЬНЫЕ",Суббота HD
+#EXTVLCOPT:http-user-agent=SmartTV
+https://livetv.mylifeisgood.net.ru/channels/subbota.m3u8
+
+#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ",8 канал
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_8CHANNEL.m3u8
+
+#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ",8 Канал (Европа)
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_8CHANNEL_EUROPE.m3u8
+
+#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ",E TV HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_ETVHD.m3u8
+
+#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ",TVM Channel
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_TVMCHANNEL.m3u8
+
+#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ",7 tv
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_7TV.m3u8
+
+#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ",LIFE TV
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_LIFETV_RUSEST.m3u8
+
+#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ",Перец International
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_PERETZ_INT.m3u8
+
+#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ",Тонус ТВ
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_TONUSTV.m3u8
+
+#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ",360°
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_360TV.m3u8
+
+#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ",360° HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_360TVHD.m3u8
+
+#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ",Твое ТВ HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_TVOETVHD.m3u8
+
+#EXTINF:0 group-title="РАЗВЛЕКАТЕЛЬНЫЕ" tvg-logo="http://epg.one/img/5441.png" tvg-rec="0",Твое ТВ FHD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://tvoetv.space:8080/tvoetv/index.m3u8
+
+#EXTINF:0 group-title="РАЗВЛЕКАТЕЛЬНЫЕ" tvg-logo="http://epg.one/img/5441.png" tvg-rec="0",Твое ТВ юмор FHD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://tvoetv.space:8080/tvoetv_humor/index.m3u8
+
+
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",НЕИЗВЕСТНАЯ РОССИЯ
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_UNKNOWN_RUSSIA.m3u8
+
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",НЕИЗВЕСТНАЯ РОССИЯ HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_UNKNOWN_RUSSIAHD.m3u8
+
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",ИСТОРИЯ
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_ISTORIYA.m3u8
+
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Моя Планета
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_MOYAPLANETA.m3u8
+
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Моя Планета HD720
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_MOYAPLANETAHD720.m3u8
+
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Моя планета HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_MOYAPLANETAHD.m3u8
+
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",National Geographic
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_NATIONALGEOGRAPHIC.m3u8
+
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",National Geographic WILD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_NATIONALGEOGRAPHICWILD.m3u8
+
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Animal Planet HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_ANIMALPLANETHD.m3u8
+
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Discovery Channel HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_DISCOVERYCHANNELHD.m3u8
+
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",ID HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_IDHD.m3u8
+
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Загородный
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_ZAGORODNY.m3u8
+
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",ДИКАЯ ОХОТА HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_DIKAYAOHOTAHD.m3u8
+
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Первый космический HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_1KOSMICHESKIYHD.m3u8
+
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",NANO TV HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_NANOTVHD.m3u8
+
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Наука 2.0
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_NAUKA20.m3u8
+
+
+#EXTINF:-1 group-title="КИНО И СЕРИАЛЫ",СТС Love
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/zabava/CH_STSLOVE.m3u8
+
+#EXTINF:-1 group-title="КИНО И СЕРИАЛЫ",НТВ ПРАВО
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_NTVPRAVO.m3u8
+
+#EXTINF:-1 group-title="КИНО И СЕРИАЛЫ",НТВ СЕРИАЛ
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_NTVSERIAL.m3u8
+
+#EXTINF:-1 group-title="КИНО И СЕРИАЛЫ",НТВ СТИЛЬ
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_NTVSTIL.m3u8
+
+#EXTINF:-1 group-title="КИНО И СЕРИАЛЫ",НТВ ХИТ
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_NTVHIT.m3u8
+
+#EXTINF:-1 group-title="КИНО И СЕРИАЛЫ",Кино и сериалы (СМОТРИМ)
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/smotrim/CH_KINO_I_SERIALY.m3u8
+
+#EXTINF:-1 group-title="КИНО И СЕРИАЛЫ",Кино и сериалы HD (СМОТРИМ)
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/smotrim/CH_KINO_I_SERIALYHD.m3u8
+
+#EXTINF:-1 group-title="КИНО И СЕРИАЛЫ",KINO 24
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_KINO24.m3u8
+
+#EXTINF:-1 group-title="КИНО И СЕРИАЛЫ",КОШМАР
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_KOSHMAR.m3u8
+
+#EXTINF:-1 tvg-name="IPTVPLAY УЖАСТИК HD" tvg-id="IPTVPLAYUZHASTIK.tv" tvg-logo="http://bezbe.my1.ru/poster/tvplay.png" group-title="Фильмы", УЖАСТИК HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://92.53.64.197:5050/IPTVPLAYUZHASTIK.tv/video.m3u8?token=m3VIth-Rou_bM1
+
+#EXTINF:-1 group-title="КИНО И СЕРИАЛЫ",Дом кино
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_DOMKINO.m3u8
+
+#EXTINF:-1 group-title="КИНО И СЕРИАЛЫ",ТЕЛЕКАФЕ
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_TELEKAFE.m3u8
+
+#EXTINF:-1 group-title="КИНО И СЕРИАЛЫ",КИНО ТВ
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_KINOTV.m3u8
+
+#EXTINF:-1 group-title="КИНО И СЕРИАЛЫ",CINEMA
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_CINEMA.m3u8
+
+#EXTINF:-1 group-title="КИНО И СЕРИАЛЫ",FOX
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_FOX.m3u8
+
+#EXTINF:-1 group-title="КИНО И СЕРИАЛЫ",FOX Life
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_FOXLIFE.m3u8
+
+#EXTINF:-1 group-title="КИНО И СЕРИАЛЫ",.SCI-FI
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_SCI-FI.m3u8
+
+#EXTINF:-1 group-title="КИНО И СЕРИАЛЫ",AMEDIA II
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_AMEDIAII.m3u8
+
+#EXTINF:-1 group-title="КИНО И СЕРИАЛЫ",AMEDIA PREMIUM HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_AMEDIAPREMIUMHD.m3u8
+
+#EXTINF:-1 group-title="КИНО И СЕРИАЛЫ",AMEDIA HIT HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_AMEDIAHITHD.m3u8
+
+#EXTINF:-1 group-title="КИНО И СЕРИАЛЫ",Atv Bazmoc TV HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_ATVBAZMOCTVHD.m3u8
+
+#EXTINF:-1 tvg-logo="https://pchelp24.com/wp-content/uploads/images/05(1).png" group-title="Фильмы",Кино 1 International
+#EXTVLCOPT:http-user-agent=SmartTV
+http://kino-1.catcast.tv/content/38617/index.m3u8
+
+#EXTINF:-1 tvg-name="IPTVPLAY ФАНТАСТИКА HD" tvg-id="IPTVPLAYFANTASTIKA.tv" tvg-logo="http://bezbe.my1.ru/poster/tvplay.png" group-title="Фильмы", ФАНТАСТИКА HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://92.53.64.197:5050/IPTVPLAYFANTASTIKA.tv/video.m3u8?token=m3VIth-Rou_bM1
+
+#EXTINF:-1 tvg-name="IPTVPLAY ПАМЯТЬ HD" tvg-id="IPTVPLAYPAMYAT.tv" tvg-logo="http://bezbe.my1.ru/poster/tvplay.png" group-title="Фильмы", ПАМЯТЬ HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://92.53.64.197:5050/IPTVPLAYPAMYAT.tv/video.m3u8?token=m3VIth-Rou_bM1
+
+#EXTINF:-1 tvg-name="IPTVPLAY PROMO HD" tvg-id="IPTVPLAYPROMO.tv" tvg-logo="http://bezbe.my1.ru/poster/tvplay.png" group-title="Фильмы", PROMO HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://92.53.64.197:5050/IPTVPLAYPROMO.tv/video.m3u8?token=m3VIth-Rou_bM1
+
+#EXTINF:-1 tvg-name="IPTVPLAY МультСказки HD" tvg-id="IPTVPLAYMultSkazki.tv" tvg-logo="http://bezbe.my1.ru/poster/tvplay.png" group-title="Фильмы", МультСказки HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://92.53.64.197:5050/IPTVPLAYMultSkazki.tv/video.m3u8?token=m3VIth-Rou_bM1
+
+
+#EXTINF:-1 group-title="КАНАЛЫ О МОДЕ",Fashion TV (SK)
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_FASHIONTV_SK.m3u8
+
+#EXTINF:-1 group-title="ИНФОРМАЦИОННЫЕ",CGTN РУССКИЙ HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_CGTN_RUSSKIYHD.m3u8
+
+#EXTINF:-1 group-title="ИНФОРМАЦИОННЫЕ",МИР 24
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_MIR24.m3u8
+
+#EXTINF:-1 group-title="ИНФОРМАЦИОННЫЕ",МИР 24 HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_MIR24HD.m3u8
+
+#EXTINF:-1 group-title="ИНФОРМАЦИОННЫЕ",РБК
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_RBK.m3u8
+
+#EXTINF:-1 group-title="ИНФОРМАЦИОННЫЕ",РБК HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_RBKHD.m3u8
+
+#EXTINF:-1 group-title="ИНФОРМАЦИОННЫЕ",RT
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_RT.m3u8
+
+#EXTINF:-1 group-title="ИНФОРМАЦИОННЫЕ",RT HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_RTHD.m3u8
+
+#EXTINF:-1 group-title="ИНФОРМАЦИОННЫЕ",RTД HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_RTDHD.m3u8
+
+#EXTINF:-1 group-title="ИНФОРМАЦИОННЫЕ",Соловьев Live HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://player.smotrim.ru/iframe/stream/live_id/985d5c7b-9727-4942-a4ba-a6e852caf0c1.m3u8
+
+#EXTINF:-1 group-title="ИНФОРМАЦИОННЫЕ",Большая Азия
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_BAZIYA.m3u8
+
+#EXTINF:-1 group-title="ИНФОРМАЦИОННЫЕ",Большая Азия HD720
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_BAZIYAHD720.m3u8
+
+#EXTINF:-1 group-title="ИНФОРМАЦИОННЫЕ",Известия
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_IZVESTIYA.m3u8
+
+
+
+#EXTINF:-1 tvg-id="deutsche-welle-ru" group-title="Новости", DW Russia
+#EXTVLCOPT:http-user-agent=SmartTV
+https://dwamdstream110.akamaized.net/hls/live/2017971/dwstream110/index.m3u8
+
+#EXTINF:-1 tvg-id="360-news" group-title="Новости", 360 Новости
+#EXTVLCOPT:http-user-agent=SmartTV
+http://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-03-srt.smil/tracks-v5a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="rbk" group-title="Новости", РБК HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://online.video.rbc.ru/online/rbctv_1080p/index.m3u8
+
+#EXTINF:-1 tvg-id="ОБЩЕСТВЕННАЯ СЛУЖБА НОВОСТЕЙ" group-title="Новости", ОСН ТВ
+#EXTVLCOPT:http-user-agent=SmartTV
+http://osnmedia.servicecdn.ru/streams/17603_88089/playlist.m3u8
+
+#EXTINF:-1 group-title="Новости",Известия HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
+
+#EXTINF:-1 tvg-id="rzhd-tv" group-title="Новости",РЖД HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://hls.tva.cdnvideo.ru/tva/tvahd.sdp/playlist.m3u8
+
+#EXTINF:-1 tvg-id="mir-24" group-title="Новости", Мир 24
+#EXTVLCOPT:http-user-agent=SmartTV
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
+
+#EXTINF:-1 tvg-id="vmeste-rf" group-title="Новости",Вместе-РФ
+#EXTVLCOPT:http-user-agent=SmartTV
+http://cdn-01.bonus-tv.ru:80/vmesterf/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="krym24" group-title="Новости", Крым 24
+#EXTVLCOPT:http-user-agent=SmartTV
+http://live24.trkcrimea.ru/24tvcrimea.m3u8
+
+#EXTINF:-1 tvg-id="ldpr-tv" tvg-logo="https://iptvx.one/picons/ldpr-tv.png" group-title="Новости", ЛДПР ТВ
+#EXTVLCOPT:http-user-agent=SmartTV
+http://46.46.143.222:1935/live/mp4:ldpr.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-id="nastoyaschee-vremia" group-title="Новости",Настоящее время HD [СМИ иногент]
+#EXTVLCOPT:http-user-agent=SmartTV
+https://rfe-ingest.akamaized.net/hls/live/2033043/tvmc05/master.m3u8
+
+#EXTINF:-1 tvg-id="pro-business" tvg-logo="https://iptvx.one/picons/pro-business.png" group-title="Новости", Про бизнес
+#EXTVLCOPT:http-user-agent=SmartTV
+http://176.107.219.20:9000/play/a003/index.m3u8
+
+#EXTINF:-1 tvg-id="solovjinypomiot" group-title="Новости", Соловьев.Live HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://player.smotrim.ru/iframe/stream/live_id/985d5c7b-9727-4942-a4ba-a6e852caf0c1.m3u8
+
+#EXTINF:-1 tvg-id="no_epg_news" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/TASS_Logo_(Cyrillic)_2017.svg/1200px-TASS_Logo_(Cyrillic)_2017.svg.png" group-title="Новости", ТАСС
+#EXTVLCOPT:http-user-agent=SmartTV
+https://tass-hls.servicecdn.ru/httpstreamer/tass-loop-main.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-id="no_epg_news" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/TASS_Logo_(Cyrillic)_2017.svg/1200px-TASS_Logo_(Cyrillic)_2017.svg.png" group-title="Новости", ТАСС
+#EXTVLCOPT:http-user-agent=SmartTV
+https://tass-hls.servicecdn.ru/httpstreamer/tass-loop-main.stream/playlist.m3u8
+
+
+
+#EXTINF:-1 group-title="МУЗЫКАЛЬНЫЕ",OCKO HITY
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_OCKOHITY.m3u8
+
+#EXTINF:-1 group-title="МУЗЫКАЛЬНЫЕ",OCKO STAR
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_OCKOSTAR.m3u8
+
+#EXTINF:-1 group-title="МУЗЫКАЛЬНЫЕ",RU TV
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_RUTV.m3u8
+
+#EXTINF:-1 group-title="МУЗЫКАЛЬНЫЕ",RU TV HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_RUTVHD.m3u8
+
+#EXTINF:-1 group-title="МУЗЫКАЛЬНЫЕ",OneBY
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_1MUZ.m3u8
+
+#EXTINF:-1 group-title="МУЗЫКАЛЬНЫЕ",OneBY HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://rtmp.one.by:1300
+
+#EXTINF:-1 group-title="МУЗЫКАЛЬНЫЕ",OneBY [RUS]
+#EXTVLCOPT:http-user-agent=SmartTV
+http://rtmp.one.by:2200
+
+#EXTINF:-1 group-title="МУЗЫКАЛЬНЫЕ",OneBY HD [RUS]
+#EXTVLCOPT:http-user-agent=SmartTV
+http://rtmp.one.by:2300
+
+#EXTINF:-1 group-title="МУЗЫКАЛЬНЫЕ",BRIDGE TV HITS
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_BRIDGETV_HITS.m3u8
+
+#EXTINF:-1 group-title="МУЗЫКАЛЬНЫЕ",BRIDGE TV CLASSIC
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_BRIDGETV_CLASSIC.m3u8
+
+#EXTINF:-1 group-title="МУЗЫКАЛЬНЫЕ",BRIDGE TV РУССКИЙ ХИТ
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_BRIDGETV_RUSSKIYHIT.m3u8
+
+#EXTINF:-1 group-title="МУЗЫКАЛЬНЫЕ",ТНТ MUSIC
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_TNT_MUSIC.m3u8
+
+#EXTINF:-1 group-title="МУЗЫКАЛЬНЫЕ",ТНТ MUSIC HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_TNT_MUSICHD.m3u8
+
+#EXTINF:-1 group-title="МУЗЫКАЛЬНЫЕ",V2BEAT HD720
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_V2BEATHD720.m3u8
+
+#EXTINF:-1 group-title="МУЗЫКАЛЬНЫЕ",Spirit TV
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_SPIRITTV.m3u8
+
+#EXTINF:-1 group-title="МУЗЫКАЛЬНЫЕ",Spirit TV HD720
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_SPIRITTVHD720.m3u8
+
+#EXTINF:-1 group-title="МУЗЫКАЛЬНЫЕ",Kronehit
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_KRONEHIT.m3u8
+
+#EXTINF:-1 group-title="МУЗЫКАЛЬНЫЕ",Kronehit HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_KRONEHITHD.m3u8
+
+#EXTINF:-1 group-title="МУЗЫКАЛЬНЫЕ",88 Stereo HD720
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_88STEREOHD720.m3u8
+
+#EXTINF:-1 group-title="МУЗЫКАЛЬНЫЕ",TRACE Urban
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_TRACE_URBAN.m3u8
+
+#EXTINF:-1 group-title="МУЗЫКАЛЬНЫЕ",TRACE Urban HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_TRACE_URBANHD.m3u8
+
+#EXTINF:-1 group-title="МУЗЫКАЛЬНЫЕ",MTV Live HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_MTVLIVEHD.m3u8
+
+#EXTINF:-1 group-title="МУЗЫКАЛЬНЫЕ",Шансон ТВ
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_SHANSONTV.m3u8
+
+
+
+#EXTINF:-1 group-title="ДЕТСКИЕ",Солнце
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/zabava/CH_DISNEY.m3u8
+
+#EXTVLCOPT:http-user-agent=SmartTV
+#EXTINF:-1 group-title="ДЕТСКИЕ",Радость моя
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_RADOSTMOYA.m3u8
+
+#EXTINF:-1 group-title="ДЕТСКИЕ",Детский мир
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_DETSKIY_MIR.m3u8
+
+#EXTINF:-1 group-title="ДЕТСКИЕ",МАМА
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_MAMA.m3u8
+
+#EXTINF:-1 group-title="ДЕТСКИЕ",Tiji
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_TIJI.m3u8
+
+#EXTINF:-1 group-title="ДЕТСКИЕ",CARTOONITO HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_CARTOONITOHD.m3u8
+
+#EXTINF:-1 group-title="ДЕТСКИЕ",Ani
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_ANI.m3u8
+
+#EXTINF:-1 group-title="ДЕТСКИЕ",МУЛЬТ
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_MULT.m3u8
+
+#EXTINF:-1 group-title="ДЕТСКИЕ",МУЛЬТ HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_MULTHD.m3u8
+
+#EXTINF:-1 group-title="ДЕТСКИЕ",МУЛЬТ И МУЗЫКА
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_MULTIMUZYKA.m3u8
+
+#EXTINF:-1 group-title="ДЕТСКИЕ",Nicktoons HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_NICKTOONSHD.m3u8
+
+#EXTINF:-1 group-title="ДЕТСКИЕ",Nickelodeon HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://stream01.vnet.am/Channel_114/mono.m3u8
+
+#EXTINF:-1 group-title="ДЕТСКИЕ",Nickelodeon HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_NICKELODEONHD.m3u8
+
+#EXTINF:-1 group-title="ДЕТСКИЕ",Nickelodeon HD
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_NICKELODEONHD.m3u8
+
+#EXTINF:-1 group-title="АРХАНГЕЛЬСК",Первый канал
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/zabava/region/ARKH/CH_1TV.m3u8
+
+#EXTINF:-1 group-title="АРХАНГЕЛЬСК",Россия 1
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/zabava/region/ARKH/CH_ROSSIA1.m3u8
+
+#EXTINF:-1 group-title="АРХАНГЕЛЬСК",НТВ
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/zabava/region/ARKH/CH_NTV.m3u8
+
+#EXTINF:-1 group-title="АРХАНГЕЛЬСК",РЕН ТВ
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/zabava/region/ARKH/CH_RENTV.m3u8
+
+#EXTINF:-1 group-title="АРХАНГЕЛЬСК",СТС
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/zabava/region/ARKH/CH_STS.m3u8
+
+#EXTINF:-1 group-title="АРХАНГЕЛЬСК",ТНТ
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/zabava/region/ARKH/CH_TNT.m3u8
+
+#EXTINF:-1 group-title="АРХАНГЕЛЬСК",Россия 24
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/zabava/region/ARKH/CH_ROSSIA24.m3u8
+
+#EXTINF:-1 group-title="АРХАНГЕЛЬСК",Звезда
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/zabava/region/ARKH/CH_ZVEZDA.m3u8
+
+#EXTINF:-1 group-title="АРХАНГЕЛЬСК",Пятый канал
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/zabava/region/ARKH/CH_5TV.m3u8
+
+#EXTINF:-1 group-title="АРХАНГЕЛЬСК",Россия K
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/zabava/region/ARKH/CH_ROSSIAK.m3u8
+
+#EXTINF:-1 group-title="АРХАНГЕЛЬСК",Карусель
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/zabava/region/ARKH/CH_KARUSEL.m3u8
+
+#EXTINF:-1 group-title="АРХАНГЕЛЬСК",ОТР
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/zabava/region/ARKH/CH_OTR.m3u8
+
+#EXTINF:-1 group-title="АРХАНГЕЛЬСК",ТВЦ
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/zabava/region/ARKH/CH_TVC.m3u8
+
+#EXTINF:-1 group-title="АРХАНГЕЛЬСК",Домашний
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/zabava/region/ARKH/CH_DOMASHNIY.m3u8
+
+#EXTINF:-1 group-title="АРХАНГЕЛЬСК",ТВ3
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/zabava/region/ARKH/CH_TV3.m3u8
+
+#EXTINF:-1 group-title="АРХАНГЕЛЬСК",Пятница!
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/zabava/region/ARKH/CH_FRIDAY.m3u8
+
+#EXTINF:-1 group-title="АРХАНГЕЛЬСК",МИР
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/zabava/region/ARKH/CH_MIR.m3u8
+
+#EXTINF:-1 group-title="АРХАНГЕЛЬСК",Че!
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/zabava/region/ARKH/CH_CHE.m3u8
+
+#EXTINF:-1 group-title="АРХАНГЕЛЬСК",Матч!
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/zabava/region/ARKH/CH_MATCHTV.m3u8
+
+#EXTINF:-1 group-title="АРХАНГЕЛЬСК",Регион 29
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/zabava/region/ARKH/CH_REGION29.m3u8
+
+#EXTINF:-1 group-title="АРХАНГЕЛЬСК",Котлас 24 (Котлас)
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/zabava/region/ARKH/CH_KOTLAS24_KTLAS.m3u8
+
+#EXTINF:-1 group-title="АРХАНГЕЛЬСК",СТВ 24 (Северодвинск)
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/zabava/region/ARKH/CH_STV24.m3u8
+
+#EXTINF:-1 group-title="АРХАНГЕЛЬСК",Норд ТВ (Новодвинск)
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/zabava/region/ARKH/CH_NORDTV_NVDSK.m3u8
+
+
+
+#EXTINF:-1 group-title="РАДИО КАНАЛЫ",[Радио] Говорит Москва (Москва)
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_GM_MOS.m3u8
+
+#EXTINF:-1 group-title="РАДИО КАНАЛЫ",[Радио] Говорит Москва HD720 (Москва)
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_GMHD720_MOS.m3u8
+
+#EXTINF:-1 group-title="РАДИО КАНАЛЫ",[Радио] РАДИО ХИТ HD720 (Орск)
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_RADIOXITHD720_ORSK.m3u8
+
+#EXTINF:-1 group-title="РАДИО КАНАЛЫ",[Радио] MCM HD720 (Иркутск)
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_MCMHD720_IRK.m3u8
+
+#EXTINF:-1 group-title="РАДИО КАНАЛЫ",[Радио] M-1 HD720
+#EXTVLCOPT:http-user-agent=SmartTV
+http://dmi3y-tv.ru/hls/CH_M1HD720.m3u8
+
+#EXTINF:-1 group-title="РАДИО КАНАЛЫ",[Радио] Вести FM HD (auto)
+#EXTVLCOPT:http-user-agent=SmartTV
+http://player.smotrim.ru/iframe/stream/live_id/0487fd79-60e6-4333-a545-909d6e015173.m3u8
+
+#EXTINF:-1 group-title="РАДИО КАНАЛЫ",[Радио] Радио России HD (auto)
+#EXTVLCOPT:http-user-agent=SmartTV
+http://player.smotrim.ru/iframe/stream/live_id/39ebf09f-bf74-4040-83e6-94b770ba77c4.m3u8
+
+
